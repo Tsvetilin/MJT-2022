@@ -912,6 +912,6 @@ String lineRead = sc.nextLine();
 
 ## Въпроси?
 
-.font-xl[.ri-github-fill.icon-inline[[fmi/java-course](https://github.com/fmi/java-course)]]
+[fmi/java-course в Github](<https://github.com/fmi/java-course>)
 
-.font-xl[.ri-youtube-fill.icon-inline[[MJT2023](https://www.youtube.com/playlist?list=PLew34f6r0PxyUcIg370lv9jHDwFeMDa7e)]]
+[MJT2023 в Youtube](<https://www.youtube.com/playlist?list=PLew34f6r0PxyUcIg370lv9jHDwFeMDa7e>)
