@@ -1,5 +1,6 @@
 # Modern Java Technologies
 @Faculty of Mathematics and Informatics, Sofia University
+
 Elective course, Winter semester 2022/2023
 
 Това хранилище съдържа материали към курса "Съвременни Java технологии" на ФМИ, СУ.
