@@ -93,11 +93,7 @@ Hello world!
 
 ### Стандартно Java приложение
 
-.center[
-
 ![Java app diagram](lecture-images/01.2-java-app.jpg)
-
-]
 
 ---
 
@@ -135,7 +131,7 @@ Hello world!
 
 ### Tипове данни и променливи
 
-.center[![Variables](lecture-images/01.3-variables.jpg)]
+![Variables](lecture-images/01.3-variables.jpg)
 
 ---
 
@@ -798,7 +794,7 @@ String s = switch(obj) {
 
 ### Масиви
 
-.center[![Array](lecture-images/01.5-array.jpg)]
+![Array](lecture-images/01.5-array.jpg)
 
 ---
 
@@ -880,7 +876,7 @@ Arrays.sort(a, Collections.reverseOrder()); // сортиране в обрат�
 
 ### Функции
 
-.center[![Functions](lecture-images/01.7-funcs.jpg)]
+![Functions](lecture-images/01.7-funcs.jpg)
 
 ---
 
@@ -906,11 +902,11 @@ String lineRead = sc.nextLine();
 
 ---
 
-.center[![Thinking in Java](lecture-images/01.8-thinking-in-java.jpg)]
+![Thinking in Java](lecture-images/01.8-thinking-in-java.jpg)
 
 ---
 
-.center[![Effective Java](lecture-images/01.9-effective-java.jpg)]
+![Effective Java](lecture-images/01.9-effective-java.jpg)
 
 ---
 
