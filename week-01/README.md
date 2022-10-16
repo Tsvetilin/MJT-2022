@@ -59,7 +59,7 @@
 - Създаден през 1995 от James Gosling (Sun Microsystems)
 - Актуална версия: Java 19 (released 20.09.2022)
 
-![Java logo and mascot](images/01.1-java-logo-mascot.png)
+![Java logo and mascot](lecture-images/01.1-java-logo-mascot.png)
 
 ---
 
@@ -95,7 +95,7 @@ Hello world!
 
 .center[
 
-![Java app diagram](images/01.2-java-app.jpg)
+![Java app diagram](lecture-images/01.2-java-app.jpg)
 
 ]
 
@@ -135,7 +135,7 @@ Hello world!
 
 ### Tипове данни и променливи
 
-.center[![Variables](images/01.3-variables.jpg)]
+.center[![Variables](lecture-images/01.3-variables.jpg)]
 
 ---
 
@@ -288,7 +288,7 @@ int mask     = 0b1010_1010_1010;
 
 - За да ни помага компилаторът в откриването на грешки
 
-![Java app diagram](images/01.4-rocket.jpg)
+![Java app diagram](lecture-images/01.4-rocket.jpg)
 
 .font-xs[През 1996, ракетата Ариана 5 експлодира след излитане поради софтуерна грешка в конвертирането на типове (опит да „набута“ 64-битово число в 16 бита).]
 
@@ -798,7 +798,7 @@ String s = switch(obj) {
 
 ### Масиви
 
-.center[![Array](images/01.5-array.jpg)]
+.center[![Array](lecture-images/01.5-array.jpg)]
 
 ---
 
@@ -839,7 +839,7 @@ int[][] b = {
 };
 ```
 
-![Matrix](images/01.6-matrix.jpg)
+![Matrix](lecture-images/01.6-matrix.jpg)
 
 ---
 
@@ -880,7 +880,7 @@ Arrays.sort(a, Collections.reverseOrder()); // сортиране в обрат�
 
 ### Функции
 
-.center[![Functions](images/01.7-funcs.jpg)]
+.center[![Functions](lecture-images/01.7-funcs.jpg)]
 
 ---
 
@@ -906,11 +906,11 @@ String lineRead = sc.nextLine();
 
 ---
 
-.center[![Thinking in Java](images/01.8-thinking-in-java.jpg)]
+.center[![Thinking in Java](lecture-images/01.8-thinking-in-java.jpg)]
 
 ---
 
-.center[![Effective Java](images/01.9-effective-java.jpg)]
+.center[![Effective Java](lecture-images/01.9-effective-java.jpg)]
 
 ---
 
