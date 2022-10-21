@@ -14,9 +14,4 @@ public class TourGuide {
 
         return bestScore;
     }
-
-    public static void main(String[] args) {
-        //System.out.println(getBestSightseeingPairScore(new int[]{1, 2}));
-        System.out.println(getBestSightseeingPairScore(new int[] { 8, 1, 5, 2, 6 }));
-    }
 }

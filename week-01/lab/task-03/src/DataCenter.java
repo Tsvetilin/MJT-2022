@@ -34,7 +34,7 @@ public class DataCenter {
                 }
             }
 
-            if (current <= 2) {
+            if (current < 2) {
                 continue;
             }
 
@@ -46,13 +46,5 @@ public class DataCenter {
         }
 
         return count;
-    }
-
-    public static void main(String[] args) {
-        // System.out.println(getCommunicatingServersCount(new int[][] { { 1, 0 }, { 0,
-        // 1 } }));
-        // System.out.println(getCommunicatingServersCount(new int[][]{{1, 0}, {1,
-        // 1}}));
-        System.out.println(getCommunicatingServersCount(new int[][] { { 1, 1, 0 }, { 1, 1, 0 }, { 0, 0, 1 } }));
     }
 }
