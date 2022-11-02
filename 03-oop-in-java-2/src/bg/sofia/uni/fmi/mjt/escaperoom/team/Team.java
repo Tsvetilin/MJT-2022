@@ -24,7 +24,7 @@ public class Team implements Ratable {
      */
     public void updateRating(int points) {
         if (points < 0) {
-            throw new IllegalArgumentException("");
+            throw new IllegalArgumentException("Invalid points.");
         }
 
         rating += points;

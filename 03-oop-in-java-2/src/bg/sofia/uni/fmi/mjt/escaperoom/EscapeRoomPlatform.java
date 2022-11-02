@@ -13,9 +13,9 @@ import java.util.Objects;
 public class EscapeRoomPlatform implements EscapeRoomAdminAPI, EscapeRoomPortalAPI {
 
     private int roomsIndex = 0;
-    private EscapeRoom[] rooms;
-    private Team[] teams;
-    private int maxCapacity;
+    private final EscapeRoom[] rooms;
+    private final Team[] teams;
+    private final int maxCapacity;
 
     public EscapeRoomPlatform(Team[] teams, int maxCapacity) {
         this.teams = teams;
@@ -26,16 +26,16 @@ public class EscapeRoomPlatform implements EscapeRoomAdminAPI, EscapeRoomPortalA
     @Override
     public void addEscapeRoom(EscapeRoom room) throws RoomAlreadyExistsException {
         if (room == null) {
-            throw new IllegalArgumentException("");
+            throw new IllegalArgumentException("Invalid room.");
         }
 
         if (roomsIndex == maxCapacity) {
-            throw new PlatformCapacityExceededException("");
+            throw new PlatformCapacityExceededException("Cannot add more rooms.");
         }
 
         for (int i = 0; i < roomsIndex; i++) {
             if (Objects.equals(rooms[i].getName(), room.getName())) {
-                throw new RoomAlreadyExistsException("");
+                throw new RoomAlreadyExistsException("Room with the same name already added.");
             }
         }
 
@@ -93,9 +93,9 @@ public class EscapeRoomPlatform implements EscapeRoomAdminAPI, EscapeRoomPortalA
             throw new IllegalArgumentException();
         }
 
-        for (int i = 0; i < teams.length; i++) {
-            if (Objects.equals(teams[i].getName(), teamName)) {
-                team = teams[i];
+        for (Team value : teams) {
+            if (Objects.equals(value.getName(), teamName)) {
+                team = value;
                 break;
             }
         }
@@ -117,7 +117,7 @@ public class EscapeRoomPlatform implements EscapeRoomAdminAPI, EscapeRoomPortalA
     @Override
     public EscapeRoom getEscapeRoomByName(String roomName) throws RoomNotFoundException {
         if (roomName == null || roomName.isBlank()) {
-            throw new IllegalArgumentException("");
+            throw new IllegalArgumentException("Invalid room name.");
         }
 
         for (int i = 0; i < roomsIndex; i++) {

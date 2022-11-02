@@ -4,15 +4,15 @@ import bg.sofia.uni.fmi.mjt.escaperoom.rating.Ratable;
 
 public class EscapeRoom implements Ratable {
 
-    private String name;
-    private Theme theme;
-    private double priceToPlay;
-    private double avarageRating = 0;
-    private int maxReviewsCount;
+    private final String name;
+    private final Theme theme;
+    private final double priceToPlay;
+    private double averageRating = 0;
     private int currentReviewsCount = 0;
-    private Difficulty difficulty;
-    private int maxTimeToEscape;
-    private Review[] reviews;
+    private final int maxReviewsCount;
+    private final Difficulty difficulty;
+    private final int maxTimeToEscape;
+    private final Review[] reviews;
 
     public EscapeRoom(String name, Theme theme, Difficulty difficulty, int maxTimeToEscape, double priceToPlay,
                       int maxReviewsCount) {
@@ -72,10 +72,10 @@ public class EscapeRoom implements Ratable {
      */
     public void addReview(Review review) {
         if (review == null) {
-            throw new IllegalArgumentException();
+            throw new IllegalArgumentException("Invalid review.");
         }
 
-        avarageRating = (avarageRating * currentReviewsCount + review.rating()) / (currentReviewsCount + 1);
+        averageRating = (averageRating * currentReviewsCount + review.rating()) / (currentReviewsCount + 1);
         ++currentReviewsCount;
         reviews[currentReviewsCount % maxReviewsCount] = review;
     }
@@ -83,6 +83,6 @@ public class EscapeRoom implements Ratable {
 
     @Override
     public double getRating() {
-        return avarageRating;
+        return averageRating;
     }
 }
