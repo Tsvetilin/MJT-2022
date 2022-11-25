@@ -10,3 +10,6 @@ Elective course, Winter semester 2022/2023
 - 01.[Въведение в Java](<./01-intro-to-java/>)
 - 02.[ООП в Java - I част](<./02-oop-in-java-1/>)
 - 03.[ООП в Java - II част](<./03-oop-in-java-2/>)
+- 04.[Качествен код и колекции](<./04-clean-code-collections/>)
+- 05.[Шаблони](<./05-generics/>)
+- 06.[Компонентно тестване и мокване](<./06-unit-testing-and-mocking/>)
