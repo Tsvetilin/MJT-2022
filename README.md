@@ -13,3 +13,4 @@ Elective course, Winter semester 2022/2023
 - 04.[Качествен код и колекции](<./04-clean-code-collections/>)
 - 05.[Шаблони](<./05-generics/>)
 - 06.[Компонентно тестване и мокване](<./06-unit-testing-and-mocking/>)
+- 07.[Входно-изходни потоци и файлове](<./07-io-streams-and-files/>)
