@@ -3,11 +3,17 @@
 Elective course, Winter semester 2022/2023
 
 
-Това хранилище съдържа решения на заданията към курса "Съвременни Java технологии" на ФМИ, СУ.
-Лекционният материал може да намерите на официалният сайт на курса: [fmi/java-course](<https://fmi.github.io/java-course/>).
+Това хранилище съдържа решения (и условия) на заданията към курса "Съвременни Java технологии" на ФМИ, СУ.
+
+Лекционният материал може да намерите на официалният сайт на курса: [fmi/java-course](<https://fmi.github.io/java-course/>)
+
+Записи от лекции и упржанения: [Youtube](<https://www.youtube.com/playlist?list=PLew34f6r0PxyQmWCgCP5gKeoBuzXJxq1w>)
+
+Лектор: [Стоян Велев](<https://www.linkedin.com/in/stoyo/>)
 
 ## Съдържание
-#### Lab
+
+### Lab
 01. [Въведение в Java](<./01-intro-to-java/>)
 02. [ООП в Java - I част](<./02-oop-in-java-1/>)
 03. [ООП в Java - II част](<./03-oop-in-java-2/>)
@@ -19,10 +25,10 @@ Elective course, Winter semester 2022/2023
 09. [Многонишково програмиране](<./09-threads/>)
 10. [Мрежово програмиране](<./10-network/>)
 
-#### Homework
+### Homework
 01. [Mini Outlook](<./homework-01/>)
 02. [Movie review sentiment analyzer](<./homework-02/>)
 03. [News Feed](<./homework-03/>)
 
-#### Project
+### Project
 00. [Bookmarks manager](<./project/>)
